@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📚 BookRats
 
-## Getting Started
+**BookRats** is a dynamic book recommendation platform that is currently under development. Once launched, it will allow users to discover new reads, post reviews, and explore what others think about their favorite books. Whether you're a casual reader or a book enthusiast, BookRats aims to provide a community-driven space to share insights and get inspired.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌟 Features (Planned)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* ✅ **Book Reviews:** Users will be able to write and publish reviews for books they’ve read.
+* ✅ **Read Others’ Opinions:** Explore reviews and ratings submitted by the community.
+* ✅ **Book Introductions:** Get brief summaries and introductions to help you decide what to read next.
+* ✅ **Trending Books:** Stay updated with what’s popular among readers.
+* ✅ **Search & Filter:** Easily find books by title, author, genre, or popularity.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠 Tech Stack (In Progress)
 
-## Learn More
+* **Frontend:** Next.js + TypeScript + Tailwind CSS
+* **Backend:** Node.js + Express
+* **Database:** PostgreSQL
+* **Authentication:** Auth.js
+* **API:** Google Books API 
+* **Hosting:** Vercel 
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📦 Setup Instructions (Development)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **Clone the Repository**
 
-## Deploy on Vercel
+   ```bash
+   git clone https://github.com/your-username/bookrats.git
+   cd bookrats
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. **Install Dependencies**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   ```bash
+   npm install
+   ```
+
+3. **Set Up Environment Variables**
+
+   Create a `.env` file in the root directory and add:
+
+   ```env
+   MONGO_URI=your_mongodb_connection_string
+   JWT_SECRET=your_jwt_secret_key
+   ```
+
+4. **Run the Development Server**
+
+   ```bash
+   npm run dev
+   ```
+
+---
+
+## 🚧 Project Status
+
+BookRats is currently in active development. The initial version will be launched soon. Stay tuned!
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions! Feel free to fork the project, make improvements, and submit pull requests.
+
+1. Fork the repository
+2. Create your feature branch: `git checkout -b feature-name`
+3. Commit your changes: `git commit -m 'Add some feature'`
+4. Push to the branch: `git push origin feature-name`
+5. Open a pull request
+
+---
+
+## 📬 Contact
+
+For questions or suggestions, reach out at: [balajinadar008@gmail.com](mailto:balajinadar008@gmail.com)
+
+
+---
+
+Happy Reading! 📘✨

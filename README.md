@@ -2,7 +2,9 @@
 
 **BookRats** is a dynamic book recommendation platform that is currently under development. Once launched, it will allow users to discover new reads, post reviews, and explore what others think about their favorite books. Whether you're a casual reader or a book enthusiast, BookRats aims to provide a community-driven space to share insights and get inspired.
 
+
 ---
+
 
 ## 🌟 Features (Planned)
 
